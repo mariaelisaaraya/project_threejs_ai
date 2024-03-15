@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useSnapshot } from 'valtio';
 
 import state from '../store';
+import { CustomButton } from '../components';
 import {
    headContainerAnimation,
    headContentAnimation,
@@ -38,8 +39,12 @@ const Home = () => {
                 customization tool. <strong>Unlesh your imagination</strong>{" "}
                 and define your own style.
               </p>
-            </motion.div>  
 
+              <CustomButton 
+              
+              />
+
+            </motion.div>  
           </motion.div>
         </motion.section>
       ) }
